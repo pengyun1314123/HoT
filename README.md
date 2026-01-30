@@ -35,10 +35,14 @@ It is a general-purpose pruning-and-recovering framework, capable of being easil
 
 ## 💡 Installation
 
-🔥HoT🔥 is tested on Ubuntu 18 with Pytorch 1.7.1 and Python 3.9. torch2.3.1 cuda11.8 also build success. use opencv-python 4.9.0.80,numpy1.26.4,pillow9.5.0 process ok.
+🔥HoT🔥 is tested on Ubuntu 18 with Pytorch 1.7.1 
 - Create a conda environment: ```conda create -n hot python=3.9```
 - Install PyTorch 1.7.1 and Torchvision 0.8.2 following the [official instructions](https://pytorch.org/)
 - ```pip3 install -r requirements.txt```
+- Python 3.9. torch2.3.1 cuda11.8 also build success. use opencv-python 4.9.0.80,numpy1.26.4,pillow9.5.0 process ok.
+on windows,maybe makesure
+conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 pytorch-cuda=11.8 -c pytorch -c nvidia 
+conda install cudatoolkit=11.8 -c nvidia
 
 ## 🐳 Download pretrained models
 
